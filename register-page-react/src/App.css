@@ -30,19 +30,19 @@
   text-decoration: underline;
 }
 
-.left-overlay {
+.centre-overlay {
   position: fixed;
   top: 460px;
-  width: 50%;
+  width: 1020px;
   height: 750px;
-  left: 0;
+  left: 200px;
   transform: translateY(-50%);
   background-color: rgba(230, 229, 229, 0.18);
   padding: 20px;
   z-index: 1000;
 }
 
-.left-overlay button {
+.centre-overlay button {
   background-color: #007bff;
   color: white;
   border: none;
@@ -51,7 +51,7 @@
   font-size: 16px;
 }
 
-.left-overlay button:hover {
+.centre-overlay button:hover {
   background-color: #0056b3;
 }
 
@@ -87,4 +87,37 @@
 #register {
   background-color: black;
   color: white;
+}
+
+.text {
+  position: fixed;
+  top: 280px;
+  left: 480px;
+}
+
+.close-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #d32f2f;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 480px;
+  width: 100px;
+}
+
+#pecfest-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
