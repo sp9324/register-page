@@ -1,0 +1,90 @@
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.navbar-overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar-overlay a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.navbar-overlay a:hover {
+  text-decoration: underline;
+}
+
+.left-overlay {
+  position: fixed;
+  top: 460px;
+  width: 50%;
+  height: 750px;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: rgba(230, 229, 229, 0.18);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.left-overlay button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.left-overlay button:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#register {
+  background-color: black;
+  color: white;
+}
